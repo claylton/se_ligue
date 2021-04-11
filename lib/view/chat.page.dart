@@ -35,14 +35,14 @@ class _ChatPageState extends State<ChatPage> {
                 margin: EdgeInsets.zero,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(size.width * .1),
-                    topLeft: Radius.circular(size.width * .1),
+                    topRight: Radius.circular(size.width * .07),
+                    topLeft: Radius.circular(size.width * .07),
                     bottomLeft: Radius.circular(size.width * .05),
                     bottomRight: Radius.circular(size.width * .05),
                   ),
                 ),
                 child: ListView.builder(
-                  itemCount: 5,
+                  itemCount: 105,
                   itemBuilder: (BuildContext context, int index) {
                     return ChatMessage();
                   },

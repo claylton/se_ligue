@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "191480759748",
+    "project_id": "se-ligue",
+    "storage_bucket": "se-ligue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191480759748:android:6fa8c4ec82c54f56305091",
+        "android_client_info": {
+          "package_name": "com.example.se_ligue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191480759748-fq81ahi930cfbm0nj7qj528rugt2nmb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRUR75y-PljcQDZTp2JmPU4GZ4UbWw6rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191480759748-fq81ahi930cfbm0nj7qj528rugt2nmb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
