@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:se_ligue/widgets/chat.message.dart';
+import 'package:se_ligue/widgets/send_text_messages.dart';
 
 class ChatPage extends StatefulWidget {
   @override
@@ -49,7 +50,7 @@ class _ChatPageState extends State<ChatPage> {
                 ),
               ),
             ),
-            Container(height: size.height * 0.08),
+            Container(height: size.height * 0.1,child: SendTextMenssages(),),
           ],
         ),
       ),

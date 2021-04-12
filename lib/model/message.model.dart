@@ -6,4 +6,11 @@ class Message {
   final Timestamp send_time;
 
   Message(this.user_id, this.text, this.send_time);
+
+  Map<String,dynamic> asMap (){
+    return{'user_id': user_id,
+            'text': text,
+            'send_time': send_time};
+
+  }
 }
